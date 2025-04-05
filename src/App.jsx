@@ -26,7 +26,7 @@ export const App = () => (
   <section className="App">
     <h1 className="App__title">Static list of posts</h1>
     <PostList posts={preparedPosts} />
-    <PostInfo post={preparedPosts} />
+    <PostInfo post={preparedPosts[0]} />
     <CommentList comments={commentsFromServer} />
     <CommentInfo comment={commentsFromServer} />
   </section>
