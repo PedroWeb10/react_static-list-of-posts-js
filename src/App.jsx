@@ -28,7 +28,7 @@ export const App = () => (
     <PostList posts={preparedPosts} />
     <PostInfo post={preparedPosts[0]} />
     <CommentList comments={commentsFromServer} />
-    <CommentInfo comment={commentsFromServer} />
+    <CommentInfo comment={commentsFromServer[0]} />
   </section>
 );
 
